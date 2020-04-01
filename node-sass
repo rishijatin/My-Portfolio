@@ -1,0 +1,358 @@
+Script started on 2020-04-01 17:20:04+0530
+]0;jatin@whoareyou: ~/Desktop/Portfolio[01;32mjatin@whoareyou[00m:[01;34m~/Desktop/Portfolio[00m$ npm run sass
+[?25h[0G[K
+> portfolio@1.0.0 sass /home/jatin/Desktop/Portfolio
+> node-sass -w scss/ -o dist/css/ --recursive
+
+[?25l[0G▀ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[?25h[1A[0G[K[?25h[0G[K=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/main.scss",
+  "line": 92,
+  "column": 1,
+  "message": "Invalid CSS after \"}\": expected \"}\", was \"\"",
+  "formatted": "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\n        on line 92 of scss/main.scss\n>> }\n   ^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/main.scss",
+  "line": 2,
+  "column": 1,
+  "message": "@import directive requires a url or quoted path",
+  "formatted": "Error: @import directive requires a url or quoted path\n        on line 2 of scss/main.scss\n>> @import \n\n   ^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/main.scss",
+  "line": 4,
+  "column": 1,
+  "message": "media query expression must begin with '('",
+  "formatted": "Error: media query expression must begin with '('\n        on line 4 of scss/main.scss\n>> *\n\n   ^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+^C
+]0;jatin@whoareyou: ~/Desktop/Portfolio[01;32mjatin@whoareyou[00m:[01;34m~/Desktop/Portfolio[00m$ npm un[K[Krun sass
+[?25h[0G[K
+> portfolio@1.0.0 sass /home/jatin/Desktop/Portfolio
+> node-sass -w scss/ -o dist/css/ --recursive
+
+[?25l[0G▀ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[?25h[1A[0G[K[?25h[0G[K=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 18,
+  "column": 6,
+  "message": "Invalid CSS after \"... with menu line\": expected \"}\", was \"&.close\"",
+  "formatted": "Error: Invalid CSS after \"... with menu line\": expected \"}\", was \"&.close\"\n        on line 18 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>     }\n\n   -----^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 24,
+  "column": 18,
+  "message": "style declaration must contain a value",
+  "formatted": "Error: style declaration must contain a value\n        on line 24 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>         transform: ;\n\n   -----------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 24,
+  "column": 35,
+  "message": "Invalid CSS after \"...rotate(180deg);\": expected \"}\", was \".btn\"",
+  "formatted": "Error: Invalid CSS after \"...rotate(180deg);\": expected \"}\", was \".btn\"\n        on line 24 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>         transform: rotate(180deg);\n\n   ----------------------------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 24,
+  "column": 35,
+  "message": "Invalid CSS after \"...rotate(180deg);\": expected \"}\", was \".btn-line\"",
+  "formatted": "Error: Invalid CSS after \"...rotate(180deg);\": expected \"}\", was \".btn-line\"\n        on line 24 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>         transform: rotate(180deg);\n\n   ----------------------------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 27,
+  "column": 19,
+  "message": "Invalid CSS after \".../Line 1- Rotate\": expected \"}\", was \"&\"",
+  "formatted": "Error: Invalid CSS after \".../Line 1- Rotate\": expected \"}\", was \"&\"\n        on line 27 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>         .btn-line{\n\n   ------------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 27,
+  "column": 19,
+  "message": "Invalid CSS after \".../Line 1- Rotate\": expected \"}\", was \"&:nth\"",
+  "formatted": "Error: Invalid CSS after \".../Line 1- Rotate\": expected \"}\", was \"&:nth\"\n        on line 27 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>         .btn-line{\n\n   ------------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 27,
+  "column": 19,
+  "message": "Invalid CSS after \".../Line 1- Rotate\": expected \"}\", was \"&:nth-child()\"",
+  "formatted": "Error: Invalid CSS after \".../Line 1- Rotate\": expected \"}\", was \"&:nth-child()\"\n        on line 27 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>         .btn-line{\n\n   ------------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 31,
+  "column": 17,
+  "message": "property \"tr\" must be followed by a ':'",
+  "formatted": "Error: property \"tr\" must be followed by a ':'\n        on line 31 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>                 tr\n\n   ----------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 31,
+  "column": 26,
+  "message": "style declaration must contain a value",
+  "formatted": "Error: style declaration must contain a value\n        on line 31 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>                 transform: ;\n\n   -------------------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 32,
+  "column": 14,
+  "message": "Invalid CSS after \"... //Line 2- Hide\": expected \"}\", was \"&\"",
+  "formatted": "Error: Invalid CSS after \"... //Line 2- Hide\": expected \"}\", was \"&\"\n        on line 32 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>             }\n\n   -------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 32,
+  "column": 14,
+  "message": "Invalid CSS after \"... //Line 2- Hide\": expected \"}\", was \"&:\"",
+  "formatted": "Error: Invalid CSS after \"... //Line 2- Hide\": expected \"}\", was \"&:\"\n        on line 32 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>             }\n\n   -------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 32,
+  "column": 14,
+  "message": "Invalid CSS after \"... //Line 2- Hide\": expected \"}\", was \"&:nth-child(2)\"",
+  "formatted": "Error: Invalid CSS after \"... //Line 2- Hide\": expected \"}\", was \"&:nth-child(2)\"\n        on line 32 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>             }\n\n   -------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 36,
+  "column": 17,
+  "message": "property \"di\" must be followed by a ':'",
+  "formatted": "Error: property \"di\" must be followed by a ':'\n        on line 36 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>                 di\n\n   ----------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+^X  ^C
+]0;jatin@whoareyou: ~/Desktop/Portfolio[01;32mjatin@whoareyou[00m:[01;34m~/Desktop/Portfolio[00m$ npm sass[K[K[K[Krun sass
+[?25h[0G[K
+> portfolio@1.0.0 sass /home/jatin/Desktop/Portfolio
+> node-sass -w scss/ -o dist/css/ --recursive
+
+[?25l[0G▀ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[?25h[1A[0G[K[?25h[0G[K=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[31m{
+  "status": 1,
+  "file": "/home/jatin/Desktop/Portfolio/scss/_menu.scss",
+  "line": 36,
+  "column": 17,
+  "message": "property \"di\" must be followed by a ':'",
+  "formatted": "Error: property \"di\" must be followed by a ':'\n        on line 36 of scss/_menu.scss\n        from line 2 of scss/main.scss\n>>                 di\n\n   ----------------^\n"
+}[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scss
+[32mRendering Complete, saving .css file...[39m
+[32mWrote CSS to /home/jatin/Desktop/Portfolio/dist/css/main.css[39m
+=> changed: /home/jatin/Desktop/Portfolio/scss/main.scs
