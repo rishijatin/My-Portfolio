@@ -19,9 +19,9 @@
         text-align: center;
 
         .lg-heading
-        {   line-height: 1;
+        {   
+            line-height: 1;
             margin-bottom: 1rem;
-
         }
 
     }
@@ -50,8 +50,31 @@
         font-size: 24px;
     }
 
+    #about
+    {
+        .lg-heading
+        {
+            text-align: center;
+        }
+        .sm-heading
+        {
+            margin: auto;
+            text-align: center;
+        }
+        
 
-
+    }
+    .about-info
+    {
+        grid-template-areas: 
+        ' bioimage'
+        'bio'
+        'heading'
+        'exp1'
+        'exp2'
+        'exp3';
+        grid-template-columns: 1fr;
+    }
 
 }
 // Smart Phones

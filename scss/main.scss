@@ -1,6 +1,6 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
+
 *
 {
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 body{
     @include background;
     background: $primary-color;
-    color:#fff;
+    color:set-color-text($primary-color);
     height: 100%;
     margin:0;
     font-family: 'Segone UI',Tahoma,Geneva,Verdana,sans-serif;
@@ -30,11 +30,12 @@ h1,h2,h3{
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
         background: rgba(lighten($primary-color, $amount: 2),0.5);
+        max-width: max-content;
     }
 }
 
 a{
-    color: #fff;
+    color: set-color-text($primary-color);
     text-decoration: none;
     ion-icon
     {
@@ -87,3 +88,68 @@ main{
     }
 
 }
+
+.about-info
+{   
+
+    grid-gap:30px;
+    display: grid;
+    grid-template-areas: 
+    'bioimage bio bio'
+    'heading heading heading'
+    'exp1 exp2 exp3';
+    grid-template-columns: repeat(3,1fr);
+
+    .bio-image
+{
+    grid-area: bioimage;
+    height: 20vh;
+    width:20vh;
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
+}
+.bio
+{
+    grid-area: bio;
+    font-size: 1.5rem;
+}
+
+.achievments
+{
+    grid-area: heading;
+    margin: auto;
+    font-size: 2rem;
+    color: $secondary-color;
+    &::after
+    {
+        content:'';
+        display: block;
+        width:auto;
+        height: 3px;
+        background-color:set-color-text($primary-color);
+    }
+}
+.exp1
+{
+    grid-area: exp1;
+}
+.exp2
+{
+    grid-area: exp2;
+}
+.exp3
+{
+    grid-area: exp3;
+}
+
+.projects
+{
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px dotted;
+}
+
+
+}
+@import 'mobile';
