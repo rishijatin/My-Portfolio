@@ -105,8 +105,7 @@
          height: 350px;
          width: 350px;
          background: url('../img/profile.jpeg');
-         background-position-x: 96%;
-         background-position-y:5% ;
+         background-size: cover;
          background-repeat: no-repeat;
          border: solid 5px $secondary-color;
          border-radius: 50%;
