@@ -195,6 +195,46 @@ main {
     padding: 0.5rem;
     border-bottom: #2ecc71 5px dotted; }
 
+.skills {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .skills img {
+    width: 100%;
+    border: 3px #fff solid; }
+    .skills img:hover {
+      opacity: 0.5;
+      border-color: #2ecc71;
+      transition: all 0.5s ease-out; }
+
+.btn, .btn-dark, .btn-light {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  transition: all 0.5s ease-out; }
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
+    background: #2ecc71;
+    color: #fff; }
+  .btn ion-icon, .btn-dark ion-icon, .btn-light ion-icon {
+    display: inline-block;
+    transform: translateY(20%); }
+  .btn p, .btn-dark p, .btn-light p {
+    display: inline-block;
+    transform: translateY(-20%); }
+
+.btn-dark {
+  border-radius: 50%;
+  background: black;
+  color: #fff;
+  width: max-content; }
+
+.btn-light {
+  border-radius: 50%;
+  background: #aabed1;
+  color: #333;
+  width: max-content; }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -223,8 +263,12 @@ main {
     text-align: center; }
   .about-info {
     grid-template-areas: ' bioimage' 'bio' 'heading' 'exp1' 'exp2' 'exp3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .skills {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .skills {
+    grid-template-columns: repeat(1, 1fr); } }

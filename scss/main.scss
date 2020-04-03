@@ -152,4 +152,79 @@ main{
 
 
 }
+//Skills.Projects
+
+.skills
+{
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: repeat(3,1fr);
+
+    img
+    {
+        width: 100%;
+        border: 3px set-color-text($primary-color) solid;
+
+        &:hover
+        {
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include easeOut;
+        }
+    }
+}
+
+//Buttons-Styles
+
+.btn
+{
+    display:inline-block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+    @include easeOut;
+
+    &:hover
+    {   
+        background: $secondary-color;
+        color: set-color-text($primary-color);
+    }
+    ion-icon
+    {
+        display: inline-block;
+        transform: translateY(20%);
+    }
+    p
+    {
+        display: inline-block;
+        transform: translateY(-20%);
+    }
+}
+
+
+
+.btn-dark
+{
+    @extend .btn;
+    border-radius: 50%;
+    background: darken($primary-color,50);
+    color: #fff;
+    width: max-content;
+
+
+}
+
+.btn-light
+{
+    @extend .btn;
+    border-radius: 50%;
+    background: lighten($primary-color,50);
+    color: #333;
+    width: max-content;
+    
+}
+
+
+
+
 @import 'mobile';
