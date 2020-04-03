@@ -14,20 +14,24 @@ $background-opacity:0.8;
     {
         &#bg-img
         {
-            background:$home-image;
+            //background:$home-image;
+            //background: linear-gradient($home-image,rgba($primary-color,$background-opacity));
+            background: linear-gradient(rgba($primary-color,$background-opacity),rgba($primary-color,$background-opacity)),$home-image;
             background-attachment: fixed;
             background-size: cover;
-
-            &:after
-            {   content: '';
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba($primary-color,$background-opacity);
-                z-index: -1;
-            }
+            //background: linear-gradient($home-image,rgba($primary-color,$background-opacity));
+            //background: rgba($primary-color,$background-opacity);
+            // &:after
+            // {   content: '';
+            //     position: absolute;
+            //     top: 0;
+            //     right: 0;
+            //     width: 100%;
+            //     height: 100%;
+            //     //background: rgba($primary-color,$background-opacity);
+            //     z-index: -1;
+                
+            // }
         }
     }
 

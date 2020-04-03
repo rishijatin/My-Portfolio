@@ -80,6 +80,14 @@
     {
         grid-template-columns: repeat(2,1fr);
     }
+    #contact
+    {
+        .sm-heading
+        {
+            text-align: center;
+            margin: auto;
+        }
+    }
 
 }
 // Smart Phones
